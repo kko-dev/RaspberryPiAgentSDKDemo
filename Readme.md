@@ -12,5 +12,14 @@ The last functionlity is a button, which will terminate all ongoing sessions.
 ## Setup
 The demo was build on a RaspberryPi 3 with Raspian 11 (bullseye).
 
+Build the TeamViewer Agent API on your system. Do not forget to install the mentioned dependencies.
+Also run the CMake command, so it enalbes the Python bindings [how to](https://github.com/teamviewer/iotagentsdk/blob/main/Bindings/Python/Readme.md)
+
+In the Demo.py, search the function
+```
+requestSupportCase():
+```
+and enter you token on the field accessToken.
+
 ## Wiring 
 to do
